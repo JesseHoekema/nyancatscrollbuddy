@@ -1,0 +1,24 @@
+#nyan-cat-extension {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999999;
+  pointer-events: none;
+  width: 200px;
+  height: auto;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.nyan-tail-extension {
+  position: fixed;
+  bottom: 0px;
+  z-index: 999998;
+  pointer-events: none;
+  height: 16px;
+  width: 200px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
